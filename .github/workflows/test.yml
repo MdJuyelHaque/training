@@ -18,4 +18,4 @@ jobs:
         echo "${{ secrets.DOCKERPW }}" | docker login -u "dab8106" --password-stdin
         docker image build -t dab8106/pyflask:latest .
         docker push dab8106/pyflask:latest
-Footer
+

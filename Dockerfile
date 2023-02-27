@@ -1,2 +1,3 @@
-FROM python:3
-WORKDIR /crc/app
+FROM ubuntu:20.04
+RUN apt-get -y update
+RUN apt-get -y install nginx
